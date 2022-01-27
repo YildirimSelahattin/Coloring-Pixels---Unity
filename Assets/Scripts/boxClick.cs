@@ -7,6 +7,9 @@ public class boxClick : MonoBehaviour
     public SpriteRenderer solidbox;
     public void OnMouseDown()
     {
-        solidbox.color = flow.selectedColor;
+        if (gameObject.tag == flow.selectedTag)
+        {
+            solidbox.color = flow.selectedColor;
+        }
     }
 }
