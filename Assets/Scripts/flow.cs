@@ -5,4 +5,5 @@ using UnityEngine;
 public class flow : MonoBehaviour
 {
     public static Color selectedColor;
+    public static string selectedTag;
 }
