@@ -6,5 +6,5 @@ public class flow : MonoBehaviour
 {
     public static Color selectedColor;
     public static string selectedTag;
-    public static int wrong;
+    public static int wrong = 11;
 }
